@@ -20,7 +20,7 @@
 require("dotenv").config()
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
-const { getAllCountries } = require("../api/src/routes/controllers.js")
+const { getAllCountries } = require("./src/routes/controllers.js")
 // Syncing all the models at once.
 conn.sync({ force: false }).then(async () => {
   await getAllCountries()
