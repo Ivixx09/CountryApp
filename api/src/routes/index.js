@@ -11,7 +11,7 @@ const {
   filteredByActivity,
   getAllActivities,
   getAllContinents
-} = require("./controllers");
+} = require("./controllers.js");
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
 
